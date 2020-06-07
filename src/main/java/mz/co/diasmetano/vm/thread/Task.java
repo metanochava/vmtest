@@ -113,9 +113,5 @@ public class Task implements Runnable {
 		return submition_time;
 	}
 	
-	public long getX_max_wait() {
-		return x_max_wait;
-	}
-
 
 }
