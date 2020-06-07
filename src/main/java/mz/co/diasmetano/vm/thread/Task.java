@@ -62,7 +62,7 @@ public class Task implements Runnable {
 			long process_time = ((finalize_process - initialize_process) / 1000);
 			String sms =number + " complete |created at " + created_at + " |  wait time  " + waitTime()
 					+ " | total time process " + process_time + " | ending process " + end_process;
-			num.setProcessTime(process_time + " secunds "+sms);
+			num.setProcessTime(process_time + " secunds ");
 			num.setNumber(Integer.parseInt(number));
 			new Store(num);
 			this.stat = "done";
